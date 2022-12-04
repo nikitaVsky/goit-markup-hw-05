@@ -151,8 +151,8 @@ align-items: center;
         letter-spacing: 0.02em;
        display: flex;
        justify-content: center;
-       transition:  cubic-bezier(0, 0, 1, 1) ;
-       transition-duration: 250ms;
+       transition: color 250ms cubic-bezier(0, 0, 1, 1) ;
+       
         }
         .nav-bar-right{
             margin-right: 50px;
@@ -246,8 +246,8 @@ align-items: center;
         letter-spacing: 0.02em;
         display: flex;
         align-items: center;
-        transition:  cubic-bezier(0, 0, 1, 1) ;
-        transition-duration: 250ms;
+        transition: color 250ms cubic-bezier(0, 0, 1, 1) ;
+        
         color: #757575;}
         .upper-contact-info:hover{
             color: #2196F3;
@@ -418,8 +418,8 @@ align-items: center;
             width: 44px;
             height: 44px;
             
-            transition:  cubic-bezier(0, 0, 1, 1) ;
-            transition-duration: 250ms;
+            transition: background-color 250ms cubic-bezier(0, 0, 1, 1) ;
+            
             
             display: flex;
             justify-content: center;
@@ -432,8 +432,8 @@ align-items: center;
             background-color: rgba(225, 225, 225, 0.1);
             width: 44px;
             height: 44px;
-            transition:  cubic-bezier(0, 0, 1, 1) ;
-            transition-duration: 250ms;
+            transition: background-color 250ms cubic-bezier(0, 0, 1, 1) ;
+            
             
             
             display: flex;
@@ -457,10 +457,10 @@ align-items: center;
         }
         .social-icons{
             
-            justify-content: center;
+            
             fill: #afb1b8; 
-            transition:  cubic-bezier(0, 0, 1, 1) ;
-            transition-duration: 250ms;
+            transition: fill 250ms cubic-bezier(0, 0, 1, 1) ;
+            
 
         }
         .social-icons-footer{
@@ -487,8 +487,8 @@ align-items: center;
     width: 170px;
     height: 92px;
     border-radius: 4px;
-    transition:  cubic-bezier(0, 0, 1, 1) ;
-    transition-duration: 250ms;
+    transition: border-color 250ms cubic-bezier(0, 0, 1, 1) ;
+   
     
    }
 
@@ -501,8 +501,8 @@ align-items: center;
     border-color: #2196F3;
    }
    .icons-down-studio{
-    transition:  cubic-bezier(0, 0, 1, 1) ;
-    transition-duration: 250ms;
+    transition: fill 250ms cubic-bezier(0, 0, 1, 1) ;
+    
    
     fill: #AFB1B8;
    }
@@ -515,8 +515,8 @@ align-items: center;
             font-style: normal;
             
             font-size: 14px;
-            transition:  cubic-bezier(0, 0, 1, 1) ;
-            transition-duration: 250ms;
+            transition: color 250ms cubic-bezier(0, 0, 1, 1) ;
+            
             /* or 171% */
         
             
@@ -527,9 +527,9 @@ align-items: center;
  
     font-size: 14px;
     
-    transition:  cubic-bezier(0, 0, 1, 1) ;
+    transition: color 250ms cubic-bezier(0, 0, 1, 1) ;
     
-transition-duration: 250ms;
+
     
     color: rgba(255, 255, 255, 0.6);
     }
@@ -594,7 +594,7 @@ color: #FFFFFF;
 }
 .link-portfolio-pict{
     display: block;
-    transition:  cubic-bezier(0, 0, 1, 1) 250ms;
+    transition: box-shadow 250ms cubic-bezier(0, 0, 1, 1) ;
 }
 .link-portfolio-pict:hover {
    
@@ -615,8 +615,8 @@ box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1p
     line-height: 1.62;
     /* identical to box height, or 162% */
 
-    transition:  cubic-bezier(0, 0, 1, 1) ;
-    transition-duration: 250ms;
+    transition: color 250ms cubic-bezier(0, 0, 1, 1), background-color 250ms cubic-bezier(0, 0, 1, 1),box-shadow 250ms cubic-bezier(0, 0, 1, 1);
+    
     padding: 6px 33px;
 
     border-radius: 4px;
@@ -637,10 +637,7 @@ box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1p
    display: flex;
    justify-content: center;
    align-items: center;
-   width: 100%;
-   height: 100%;
-   transition:  cubic-bezier(0, 0, 1, 1) ;
-   transition-duration: 250ms;
+   
    
   
    
@@ -671,8 +668,8 @@ box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1p
     opacity: 0;
     width: 322px;
     height: 140px;
-    transition:  cubic-bezier(0, 0, 1, 1) ;
-    transition-duration: 250ms;
+    transition: opacity 250ms cubic-bezier(0, 0, 1, 1) ;
+    
 
 }
 .opac-text::before{
@@ -682,10 +679,9 @@ box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1p
     width: 100%;
     height: 100%;
     background-color: rgba(33, 150, 243, 0.9);
-    transition:  cubic-bezier(0, 0, 1, 1) ;
-    transition-duration: 250ms;
-/*     
-    transition: width 2s, height 4s; */
+    transition: opacity 250ms cubic-bezier(0, 0, 1, 1) ;
+    
+
    
     opacity: 0;
    
@@ -767,8 +763,9 @@ box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1p
     width: 100%;
     height: 100%;
     background: rgba(0, 0, 0, 0.2);
-    transition:  cubic-bezier(0, 0, 1, 1) ;
-    transition-duration: 250ms;
+    transition: opacity 250ms cubic-bezier(0, 0, 1, 1) ;
+  
+    
 }
 .backdrop.is-hidden{
     opacity: 0;
@@ -788,8 +785,8 @@ box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1p
    flex-direction: row-reverse;
    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
 border-radius: 4px;
-transition:  cubic-bezier(0, 0, 1, 1) ;
-transition-duration: 250ms;
+transition: opacity 250ms cubic-bezier(0, 0, 1, 1) ;
+
     
 }
 .close-cross{
